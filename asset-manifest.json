@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2987b20d.css",
+    "main.js": "/static/js/main.e0940e50.js",
+    "static/js/453.b21437c2.chunk.js": "/static/js/453.b21437c2.chunk.js",
+    "static/media/osm-nav.png": "/static/media/osm-nav.c9cf6981e2517b91b0b1.png",
+    "static/media/philip-graves-OSKMl1fYDcU-unsplash.jpg": "/static/media/philip-graves-OSKMl1fYDcU-unsplash.babba862439f94546577.jpg",
+    "static/media/disc-eas.png": "/static/media/disc-eas.e5706459ebac90aa33fc.png",
+    "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/recat.png": "/static/media/recat.c8937c2136e002654467.png",
+    "static/media/breast-tumor-classifier.png": "/static/media/breast-tumor-classifier.6df7d40158d9ad5a39cc.png",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/sleepy-cat.png": "/static/media/sleepy-cat.98e2c8a7583a96ca4ca4.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
+    "static/media/meter1.svg": "/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
+    "static/media/meter3.svg": "/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/github-icon.svg": "/static/media/github-icon.8b4db40c2cae7b35291902e54cc15655.svg",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "index.html": "/index.html",
+    "main.2987b20d.css.map": "/static/css/main.2987b20d.css.map",
+    "main.e0940e50.js.map": "/static/js/main.e0940e50.js.map",
+    "453.b21437c2.chunk.js.map": "/static/js/453.b21437c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2987b20d.css",
+    "static/js/main.e0940e50.js"
+  ]
+}
