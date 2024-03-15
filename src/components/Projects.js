@@ -6,6 +6,8 @@ import projImg2 from "../assets/img/disc-eas.png";
 import projImg3 from "../assets/img/breast-tumor-classifier.png";
 import projImg4 from "../assets/img/osm-nav.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import 'animate.css';
+import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
 
@@ -49,8 +51,13 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
-                        <p>These are some projects I've worked on that have developed different skills in web and mobile development, AI/ML, and database management.</p>
+                        <TrackVisibility>
+                        {({ isVisible }) => 
+                            <div className={isVisible ? "animate__animated animate__fadeInDown" : ""}>
+                                <h2>Projects</h2>
+                                <p>These are some projects I've worked on that have developed different skills in web and mobile development, AI/ML, and database management.</p>
+                            </div> }
+                        </TrackVisibility>
                         <Tab.Container id="projects-tab" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>

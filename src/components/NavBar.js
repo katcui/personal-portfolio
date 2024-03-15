@@ -43,10 +43,10 @@ export const NavBar = () => {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
-                    <a href="https://www.linkedin.com/in/kathycui04/"><img src={navIcon1} alt="" /></a>
-                    <a href="https://github.com/katcui"><img src={navIcon2} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/kathycui04/"><img src={navIcon1} alt="LinkedIn" /></a>
+                    <a href="https://github.com/katcui"><img src={navIcon2} alt="GitHub" /></a>
                 </div>
-                <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
+                <button className="vvd" onClick={() => window.location = 'mailto:kcui2014@gmail.com'}><span>Let's Connect</span></button>
               </span>
             </Navbar.Collapse>
           </Container>

@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import headerImg from "../assets/img/sleepy-cat.png";
+import 'animate.css';
+import TrackVisibility from "react-on-screen";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -50,11 +52,23 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center" >
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome to My Portfolio</span>
+                        <TrackVisibility>
+                        {({ isVisible }) => 
+                            <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                                <span className="tagline">Welcome to My Portfolio</span>
+                            </div>
+                        }
+                        </TrackVisibility>
                         <h1>{`Hi, I'm Kat!`}</h1>
                         <h2>{`I'm a`}<span className="wrap">{text}</span></h2>
-                        <p>I'm a student at Northwestern University interested in software engineering and development. I enjoy web and mobile development and am currently exploring artificial intelligence and machine learning. In my free time, I love to do anything art and design related, including UI/UX design, fashion, and dancing!</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25} /></button>
+                        <p>I'm a student at Northwestern University interested in software engineering and development. I enjoy web and mobile development and am currently exploring artificial intelligence and machine learning. In my free time, I love to do anything art and design related, including UI/UX design, fashion, and dancing!</p>       
+                        <TrackVisibility>
+                        {({ isVisible }) => 
+                            <div className={isVisible ? "animate__animated animate__slideInLeft" : ""}>
+                                <button onClick={() => window.location = 'mailto:kcui2014@gmail.com'}>Let's connect <ArrowRightCircle size={25} /></button>
+                            </div>
+                        }
+                        </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header Image" />
