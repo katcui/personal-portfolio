@@ -1,7 +1,6 @@
 const express = require("express");
 const path = require('path');
-
-// const router = express.Router();
+const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 const bodyParser = require('body-parser');
@@ -35,7 +34,7 @@ contactEmail.verify((error) => {
   }
 });
 
-app.post("/api/contact", bodyParser.urlencoded({ extended: false }), (req, res) => {
+router.post("/api/contact", bodyParser.urlencoded({ extended: false }), (req, res) => {
   const name = req.body.firstName + req.body.lastName;
   const email = req.body.email;
   const message = req.body.message;
