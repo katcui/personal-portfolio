@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.6cc14d5e.css",
-    "main.js": "/personal-portfolio/static/js/main.90f0427f.js",
+    "main.js": "/personal-portfolio/static/js/main.bd38e02f.js",
     "static/js/453.298f5782.chunk.js": "/personal-portfolio/static/js/453.298f5782.chunk.js",
     "static/media/osm-nav.png": "/personal-portfolio/static/media/osm-nav.c9cf6981e2517b91b0b1.png",
     "static/media/philip-graves-OSKMl1fYDcU-unsplash.jpg": "/personal-portfolio/static/media/philip-graves-OSKMl1fYDcU-unsplash.babba862439f94546577.jpg",
     "static/media/disc-eas.png": "/personal-portfolio/static/media/disc-eas.e5706459ebac90aa33fc.png",
+    "static/media/emco.png": "/personal-portfolio/static/media/emco.3935ceac1fff7d699c96.png",
     "static/media/color-sharp.png": "/personal-portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/personal-portfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/recat.png": "/personal-portfolio/static/media/recat.c8937c2136e002654467.png",
@@ -37,11 +38,11 @@
     "index.html": "/personal-portfolio/index.html",
     "static/media/nav-icon1.svg": "/personal-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.6cc14d5e.css.map": "/personal-portfolio/static/css/main.6cc14d5e.css.map",
-    "main.90f0427f.js.map": "/personal-portfolio/static/js/main.90f0427f.js.map",
+    "main.bd38e02f.js.map": "/personal-portfolio/static/js/main.bd38e02f.js.map",
     "453.298f5782.chunk.js.map": "/personal-portfolio/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cc14d5e.css",
-    "static/js/main.90f0427f.js"
+    "static/js/main.bd38e02f.js"
   ]
 }
