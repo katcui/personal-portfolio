@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.6cc14d5e.css",
-    "main.js": "/personal-portfolio/static/js/main.bd38e02f.js",
+    "main.js": "/personal-portfolio/static/js/main.aff8f106.js",
     "static/js/453.298f5782.chunk.js": "/personal-portfolio/static/js/453.298f5782.chunk.js",
     "static/media/osm-nav.png": "/personal-portfolio/static/media/osm-nav.c9cf6981e2517b91b0b1.png",
     "static/media/philip-graves-OSKMl1fYDcU-unsplash.jpg": "/personal-portfolio/static/media/philip-graves-OSKMl1fYDcU-unsplash.babba862439f94546577.jpg",
@@ -38,11 +38,11 @@
     "index.html": "/personal-portfolio/index.html",
     "static/media/nav-icon1.svg": "/personal-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.6cc14d5e.css.map": "/personal-portfolio/static/css/main.6cc14d5e.css.map",
-    "main.bd38e02f.js.map": "/personal-portfolio/static/js/main.bd38e02f.js.map",
+    "main.aff8f106.js.map": "/personal-portfolio/static/js/main.aff8f106.js.map",
     "453.298f5782.chunk.js.map": "/personal-portfolio/static/js/453.298f5782.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6cc14d5e.css",
-    "static/js/main.bd38e02f.js"
+    "static/js/main.aff8f106.js"
   ]
 }
