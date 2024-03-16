@@ -55,7 +55,7 @@ export const Projects = () => {
                         {({ isVisible }) => 
                             <div className={isVisible ? "animate__animated animate__fadeInDown" : ""}>
                                 <h2>Projects</h2>
-                                <p>These are some projects I've worked on that have developed different skills in web and mobile development, AI/ML, and database management.</p>
+                                <p>These are a few projects I've worked on for clients, startups, student organizations, courses, and personal use that have developed different skills in web and mobile development, AI/ML, and database management.</p>
                             </div> }
                         </TrackVisibility>
                         <Tab.Container id="projects-tab" defaultActiveKey="first">

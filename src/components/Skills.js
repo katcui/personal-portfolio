@@ -1,9 +1,13 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import pythonlogo from "../assets/img/python-icon.png";
+import jslogo from "../assets/img/javascript-icon.png";
+import clogo from "../assets/img/C++-logo.png";
+import htmllogo from "../assets/img/html-logo.png";
+import csslogo from "../assets/img/css-logo.png";
+import tslogo from "../assets/img/typescript-logo.png";
+import sqllogo from "../assets/img/sql-logo.png";
 import colorSharp from "../assets/img/color-sharp.png";
 import 'animate.css';
 import TrackVisibility from "react-on-screen";
@@ -39,29 +43,37 @@ export const Skills = () => {
                                 <Col>
                                     <div className="skill-bx">
                                         <h2>
-                                            Skills
+                                            Programming Languages
                                         </h2>
-                                        <p>These are my software engineering related skills and proficiencies.</p>
+                                        <p>These are the programming languages I've used.</p>
                                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                             <div className="item">
-                                                <img src={meter1} alt="Image" />
+                                                <img src={pythonlogo} alt="Image" />
                                                 <h5>Python</h5>
                                             </div>
                                             <div className="item">
-                                                <img src={meter1} alt="Image" />
-                                                <h5>Web Development</h5>
+                                                <img src={jslogo} alt="Image" />
+                                                <h5>Javascript</h5>
                                             </div>
                                             <div className="item">
-                                                <img src={meter3} alt="Image" />
-                                                <h5>Mobile Development</h5>
+                                                <img src={clogo} alt="Image" />
+                                                <h5>C/C++</h5>
                                             </div>
                                             <div className="item">
-                                                <img src={meter1} alt="Image" />
-                                                <h5>UI/UX Design</h5>
+                                                <img src={htmllogo} alt="Image" />
+                                                <h5>HTML</h5>
                                             </div>
                                             <div className="item">
-                                                <img src={meter2} alt="Image" />
-                                                <h5>AI/ML</h5>
+                                                <img src={csslogo} alt="Image" />
+                                                <h5>CSS</h5>
+                                            </div>
+                                            <div className="item">
+                                                <img src={tslogo} alt="Image" />
+                                                <h5>Typescript</h5>
+                                            </div>
+                                            <div className="item">
+                                                <img src={sqllogo} alt="Image" />
+                                                <h5>SQL</h5>
                                             </div>
                                         </Carousel>
                                     </div>
